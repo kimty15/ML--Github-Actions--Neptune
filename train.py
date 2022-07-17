@@ -2,8 +2,8 @@ import neptune.new as neptune
 from tensorflow import keras
 
 run= neptune.init(
-    project="kimty15/MLops",
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIwZWU0ODU1OC1jZjdiLTRhZTItOWJmMy01MjViMjllMDQ3ZDUifQ==",
+    project="NEPTUNE_PROJECT_NAME",
+    api_token="NEPTUNE_API_TOKEN",
 )
 
 params = {
