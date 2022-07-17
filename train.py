@@ -7,8 +7,8 @@ run= neptune.init(
 )
 
 params = {
-    "epoch_nr": 10,
-    "batch_size": 256,
+    "epoch_nr": 13,
+    "batch_size": 128,
     "lr": 0.005,
     "momentum": 0.4,
     "use_nesterov": True,
